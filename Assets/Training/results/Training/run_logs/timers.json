@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1644298578",
+        "python_version": "3.9.7 (default, Sep 16 2021, 13:09:58) \n[GCC 7.5.0]",
+        "command_line_arguments": "/home/rey/.pyenv/versions/anaconda3-2021.11/bin/mlagents-learn --run-id=Training --resume Futbolito.yaml",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1+cu102",
+        "numpy_version": "1.20.3",
+        "end_time_seconds": "1644298594"
+    },
+    "total": 16.450939686999845,
+    "count": 1,
+    "self": 0.009137855000517447,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11495884099986142,
+            "count": 1,
+            "self": 0.11495884099986142
+        },
+        "TrainerController.start_learning": {
+            "total": 16.326842990999467,
+            "count": 1,
+            "self": 8.83980001162854e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 16.25641760399958,
+                    "count": 1,
+                    "self": 16.25641760399958
+                },
+                "trainer_threads": {
+                    "total": 1.1219999578315765e-06,
+                    "count": 1,
+                    "self": 1.1219999578315765e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.07033586699981242,
+                    "count": 1,
+                    "self": 0.0004139789998589549,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.06992188799995347,
+                            "count": 1,
+                            "self": 0.06992188799995347
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
