@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Ignore timer
+*/Futbolito_timers.json
+*/Futbolito_timers.json.meta
