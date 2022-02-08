@@ -1,0 +1,47 @@
+{
+    "Futbolito": {
+        "checkpoints": [
+            {
+                "steps": 499320,
+                "file_path": "results/Training/Futbolito/Futbolito-499320.onnx",
+                "reward": -0.00392156862745098,
+                "creation_time": 1644298193.922638,
+                "auxillary_file_paths": [
+                    "results/Training/Futbolito/Futbolito-499320.pt"
+                ]
+            },
+            {
+                "steps": 509568,
+                "file_path": "results/Training/Futbolito/Futbolito-509568.onnx",
+                "reward": 0.0,
+                "creation_time": 1644298195.257782,
+                "auxillary_file_paths": [
+                    "results/Training/Futbolito/Futbolito-509568.pt"
+                ]
+            },
+            {
+                "steps": 509568,
+                "file_path": "results/Training/Futbolito/Futbolito-509568.onnx",
+                "reward": null,
+                "creation_time": 1644298594.7577782,
+                "auxillary_file_paths": [
+                    "results/Training/Futbolito/Futbolito-509568.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 509568,
+            "file_path": "results/Training/Futbolito.onnx",
+            "reward": null,
+            "creation_time": 1644298594.7577782,
+            "auxillary_file_paths": [
+                "results/Training/Futbolito/Futbolito-509568.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}
